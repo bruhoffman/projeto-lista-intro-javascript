@@ -91,8 +91,12 @@ function retornaUltimoElemento(array) {
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
-
+  const trocarElementos = array;
+  const primeiroElemento = trocarElementos.shift();
+  const ultimoElemento = trocarElementos.pop();
+  trocarElementos.unshift(ultimoElemento);
+  trocarElementos.push(primeiroElemento);
+  return trocarElementos;
 }
 
 // EXERCÍCIO 12
