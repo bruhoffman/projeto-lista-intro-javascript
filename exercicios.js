@@ -69,14 +69,12 @@ function calculaIngressosEspetaculo(custo, valorIngresso) {
   const ingressoValor = valorIngresso;
   const qtdeIngresso = custo / ingressoValor;
   return qtdeIngresso;
-
 }
 
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   const comparaStrings = string1.length === string2.length;
   return comparaStrings;
-
 }
 
 // EXERCÍCIO 09
