@@ -55,13 +55,12 @@ function imprimeTresCoresFavoritas() {
   const cor3 = prompt("Digite uma cor favorita:");
   coresPreferidas.push(cor3);
   console.log(coresPreferidas);
-
 }
 
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
-  // implemente sua lógica aqui
-
+  const stringMaiuscula = string.toUpperCase();
+  return stringMaiuscula;
 }
 
 // EXERCÍCIO 07
