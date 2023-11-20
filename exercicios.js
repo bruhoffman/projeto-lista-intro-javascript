@@ -65,7 +65,10 @@ function retornaStringEmMaiuscula(string) {
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
-  // implemente sua lógica aqui
+  const custoEspetaculo = custo;
+  const ingressoValor = valorIngresso;
+  const qtdeIngresso = custo / ingressoValor;
+  return qtdeIngresso;
 
 }
 
