@@ -101,8 +101,9 @@ function trocaPrimeiroEUltimo(array) {
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  // implemente sua lógica aqui
-
+  const palavra1 = string1.toLowerCase();
+  const palavra2 = string2.toLowerCase();
+  return palavra1 === palavra2;
 }
 
 // EXERCÍCIO 13
