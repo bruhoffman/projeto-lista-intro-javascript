@@ -47,7 +47,14 @@ function imprimeInformacoesUsuario() {
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
-  // implemente sua lógica aqui
+  const coresPreferidas = [];
+  const cor1 = prompt("Digite uma cor favorita:");
+  coresPreferidas.push(cor1);
+  const cor2 = prompt("Digite uma cor favorita:");
+  coresPreferidas.push(cor2);
+  const cor3 = prompt("Digite uma cor favorita:");
+  coresPreferidas.push(cor3);
+  console.log(coresPreferidas);
 
 }
 
