@@ -32,8 +32,8 @@ function imprimeIdade() {
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
-  // implemente sua lógica aqui
-
+  const imc = peso / (altura * altura);
+  return imc;
 }
 
 // EXERCÍCIO 04
