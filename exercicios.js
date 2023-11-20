@@ -85,8 +85,8 @@ function retornaPrimeiroElemento(array) {
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
-  // implemente sua lógica aqui
-
+  const ultimoElemento = array[array.length - 1];
+  return ultimoElemento;
 }
 
 // EXERCÍCIO 11
