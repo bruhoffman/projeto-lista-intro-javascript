@@ -107,8 +107,15 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
-  // implemente sua lógica aqui
-
+  const anoAtual = +prompt("Informe o ano atual:");
+  const anoNascimento = +prompt("Informe o ano do teu nascimento:");
+  const anoRG = +prompt("Informe o ano de expedição do teu RG");
+  const idade = anoAtual - anoNascimento;
+  const validadeRG = anoAtual - anoRG;
+  const primeiraCondicao = (idade <= 20) && (validadeRG >= 5);
+  const segundaCondicao = (idade > 20) && (idade <= 50) && (validadeRG >= 10) && (validadeRG < 15);
+  const terceiraCondicao = (idade > 50) && (validadeRG >= 15);
+  console.log(primeiraCondicao || segundaCondicao || terceiraCondicao);
 }
 
 // EXERCÍCIO 14
